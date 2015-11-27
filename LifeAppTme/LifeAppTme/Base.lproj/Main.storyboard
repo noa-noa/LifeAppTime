@@ -10,19 +10,41 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LifeAppTme" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="g6d-WF-ke6"/>
+                        <viewControllerLayoutGuide type="bottom" id="nQN-sW-Wxk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello world." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUG-32-nwt">
+                                <rect key="frame" x="162" y="357" width="90.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpG-Ey-1dM">
+                                <rect key="frame" x="192" y="453" width="30" height="30"/>
+                                <state key="normal" title="OK"/>
+                                <connections>
+                                    <action selector="tappdedOK:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nve-78-7RB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nUG-32-nwt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BBB-CV-hbX"/>
+                            <constraint firstItem="SpG-Ey-1dM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="ksM-uu-BWK"/>
+                            <constraint firstItem="nUG-32-nwt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nRP-SP-6Pd"/>
+                            <constraint firstItem="SpG-Ey-1dM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rGX-gx-9hj"/>
+                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="588" y="74"/>
         </scene>
     </scenes>
 </document>

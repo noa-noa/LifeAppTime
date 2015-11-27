@@ -29,6 +29,7 @@
 		234772191BFB931C0004EA40 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2347720C1BFB931C0004EA40 /* F.mp3 */; };
 		2347721A1BFB931C0004EA40 /* G#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2347720D1BFB931C0004EA40 /* G#.mp3 */; };
 		2347721B1BFB931C0004EA40 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2347720E1BFB931C0004EA40 /* G.mp3 */; };
+		E556248C1C084409004D0CFD /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E556248B1C084409004D0CFD /* BoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		2347720C1BFB931C0004EA40 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F.mp3; sourceTree = "<group>"; };
 		2347720D1BFB931C0004EA40 /* G#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#.mp3"; sourceTree = "<group>"; };
 		2347720E1BFB931C0004EA40 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G.mp3; sourceTree = "<group>"; };
+		E556248B1C084409004D0CFD /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				234771CE1BFB814F0004EA40 /* AppDelegate.swift */,
 				234771D01BFB814F0004EA40 /* ViewController.swift */,
 				234771D21BFB814F0004EA40 /* Main.storyboard */,
+				E556248B1C084409004D0CFD /* BoxView.swift */,
 				234771D51BFB814F0004EA40 /* Assets.xcassets */,
 				234771D71BFB814F0004EA40 /* LaunchScreen.storyboard */,
 				234771DA1BFB814F0004EA40 /* Info.plist */,
@@ -335,6 +338,7 @@
 			files = (
 				234771D11BFB814F0004EA40 /* ViewController.swift in Sources */,
 				234771CF1BFB814F0004EA40 /* AppDelegate.swift in Sources */,
+				E556248C1C084409004D0CFD /* BoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +523,7 @@
 		234771FA1BFB814F0004EA40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				INFOPLIST_FILE = LifeAppTmeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tsukuba.LifeAppTmeUITests;
@@ -559,6 +564,7 @@
 				234771F51BFB814F0004EA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		234771F61BFB814F0004EA40 /* Build configuration list for PBXNativeTarget "LifeAppTmeTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +573,7 @@
 				234771F81BFB814F0004EA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		234771F91BFB814F0004EA40 /* Build configuration list for PBXNativeTarget "LifeAppTmeUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +582,7 @@
 				234771FB1BFB814F0004EA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
